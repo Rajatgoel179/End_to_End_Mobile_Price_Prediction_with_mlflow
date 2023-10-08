@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/3b7111d7cd3f46d7a5a25f94b9052359/artifacts
+end_time: 1696772315320
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3b7111d7cd3f46d7a5a25f94b9052359
+run_name: secretive-calf-54
+run_uuid: 3b7111d7cd3f46d7a5a25f94b9052359
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696772308753
+status: 3
+tags: []
+user_id: rajat

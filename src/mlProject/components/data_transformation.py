@@ -24,7 +24,7 @@ class DataTransformation:
             df["Price ($)"]=df["Price ($)"].astype(int)
             df["RAM "]=df["RAM "].str.replace("GB","")
             df["RAM "]=df["RAM "].astype(int)
-
+            df["Battery"]=df["Battery Capacity (mAh)"]
 
             df["Storage "]=df["Storage "].str.replace("GB","")
             df["Storage "]=df["Storage "].astype(int)

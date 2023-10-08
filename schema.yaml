@@ -2,7 +2,7 @@ COLUMNS:
   Brand: int64
   Storage: int64
   RAM: int64
-  Battery Capacity (mAh): int64
+  Battery: int64
   Price ($): int64
   n_cameras: int64
   res1: int64

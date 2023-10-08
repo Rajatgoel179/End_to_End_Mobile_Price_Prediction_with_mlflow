@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/b453ff21de474af9b9b757cf9f332414/artifacts
+end_time: 1696772434733
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b453ff21de474af9b9b757cf9f332414
+run_name: painted-donkey-582
+run_uuid: b453ff21de474af9b9b757cf9f332414
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696772430002
+status: 3
+tags: []
+user_id: rajat
