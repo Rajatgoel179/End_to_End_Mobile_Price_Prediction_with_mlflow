@@ -3,6 +3,9 @@ import os
 import numpy as np
 import pandas as pd
 from mlProject.pipeline.prediction import PredictionPipeline
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 
 
 app = Flask(__name__) # initializing a flask app
@@ -26,7 +29,7 @@ def index():
             Brand =int(request.form['Brand'])
             Storage =int(request.form['Storage'])
             RAM =int(request.form['RAM'])
-            Battery =int(request.form['Battery Capacity (mAh)'])
+            Battery =int(request.form['Battery'])
             n_cameras =int(request.form['n_cameras'])
             res1 =int(request.form['res1'])
             res2 =int(request.form['res2'])
@@ -35,13 +38,13 @@ def index():
             screen =float(request.form['screen'])
        
          
-            data = [Brand,Storage,RAM,Battery,n_cameras,res1,res2,res3,res4,screen]
+            data = [[Brand,Storage,RAM,Battery,n_cameras,res1,res2,res3,res4,screen]]
             data = np.array(data).reshape(1, 10)
             
             obj = PredictionPipeline()
             predict = obj.predict(data)
 
-            return render_template('results.html', prediction = str(predict))
+            return render_template('results.html', prediction = predict )
 
         except Exception as e:
             print('The Exception message is: ',e)

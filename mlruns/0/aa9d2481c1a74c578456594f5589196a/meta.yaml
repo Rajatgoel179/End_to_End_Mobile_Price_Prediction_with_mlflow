@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/aa9d2481c1a74c578456594f5589196a/artifacts
+end_time: 1705068406383
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa9d2481c1a74c578456594f5589196a
+run_name: luminous-sponge-164
+run_uuid: aa9d2481c1a74c578456594f5589196a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705068398289
+status: 3
+tags: []
+user_id: rajat

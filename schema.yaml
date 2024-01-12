@@ -1,5 +1,4 @@
 COLUMNS:
-  Brand: int64
   Storage: int64
   RAM: int64
   Battery: int64

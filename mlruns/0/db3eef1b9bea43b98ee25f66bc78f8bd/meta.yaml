@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/db3eef1b9bea43b98ee25f66bc78f8bd/artifacts
+end_time: 1705068157668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db3eef1b9bea43b98ee25f66bc78f8bd
+run_name: rumbling-pug-313
+run_uuid: db3eef1b9bea43b98ee25f66bc78f8bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705068150831
+status: 3
+tags: []
+user_id: rajat

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/ff25bf08ae8c4a2084e886c24c158cfe/artifacts
+end_time: 1704870800034
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff25bf08ae8c4a2084e886c24c158cfe
+run_name: entertaining-koi-510
+run_uuid: ff25bf08ae8c4a2084e886c24c158cfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1704870788841
+status: 3
+tags: []
+user_id: rajat

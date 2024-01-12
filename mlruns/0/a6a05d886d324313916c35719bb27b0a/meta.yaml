@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/a6a05d886d324313916c35719bb27b0a/artifacts
+end_time: 1705066001925
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a6a05d886d324313916c35719bb27b0a
+run_name: upset-cod-99
+run_uuid: a6a05d886d324313916c35719bb27b0a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705065989607
+status: 3
+tags: []
+user_id: rajat

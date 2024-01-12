@@ -3,6 +3,11 @@ import os
 from mlProject import logger
 from sklearn.linear_model import ElasticNet
 import joblib
+import warnings
+
+# Suppress scikit-learn warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+
 from mlProject.entity.config_entity import ModelTrainerConfig
 
 

@@ -24,8 +24,7 @@ class DataTransformation:
             df["Price ($)"]=df["Price ($)"].astype(int)
             df["RAM "]=df["RAM "].str.replace("GB","")
             df["RAM "]=df["RAM "].astype(int)
-            df["Battery"]=df["Battery Capacity (mAh)"]
-
+          
             df["Storage "]=df["Storage "].str.replace("GB","")
             df["Storage "]=df["Storage "].astype(int)
             df['n_cameras'] = df['Camera (MP)'].str.count('\\+') + 1
@@ -99,7 +98,7 @@ class DataTransformation:
             df= df.drop(columns='Screen Size (inches)')
             df["screen"] = df['cem1']+"."+ df["cem2"]
             df=df.drop(["cem1","cem2","cem3"],axis=1)
-
+            df.rename(columns = {'Battery Capacity (mAh)':'Battery'}, inplace = True)
             df["screen"]=df["screen"].astype(float)
             df["res1"]=df["res1"].str.extract('(\d+)', expand=False)
             df["res1"]=df["res1"].astype(int)

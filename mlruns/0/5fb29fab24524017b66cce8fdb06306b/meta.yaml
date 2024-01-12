@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/5fb29fab24524017b66cce8fdb06306b/artifacts
+end_time: 1705068252482
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5fb29fab24524017b66cce8fdb06306b
+run_name: amusing-yak-305
+run_uuid: 5fb29fab24524017b66cce8fdb06306b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705068244513
+status: 3
+tags: []
+user_id: rajat
