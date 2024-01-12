@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/3fb6593ff85e4307bc1b2c58136014f8/artifacts
+end_time: 1705084084078
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3fb6593ff85e4307bc1b2c58136014f8
+run_name: classy-wasp-512
+run_uuid: 3fb6593ff85e4307bc1b2c58136014f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705084076926
+status: 3
+tags: []
+user_id: rajat

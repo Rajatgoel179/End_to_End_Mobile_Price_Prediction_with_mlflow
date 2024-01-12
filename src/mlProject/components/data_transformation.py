@@ -98,7 +98,7 @@ class DataTransformation:
             df= df.drop(columns='Screen Size (inches)')
             df["screen"] = df['cem1']+"."+ df["cem2"]
             df=df.drop(["cem1","cem2","cem3"],axis=1)
-            df.rename(columns = {'Battery Capacity (mAh)':'Battery'}, inplace = True)
+            
             df["screen"]=df["screen"].astype(float)
             df["res1"]=df["res1"].str.extract('(\d+)', expand=False)
             df["res1"]=df["res1"].astype(int)
@@ -111,7 +111,7 @@ class DataTransformation:
             df['res4'].isnull().sum()
             df['res4'] = df['res4'].fillna(0)
             df['res4'] = df['res4'].astype(int)
-
+            df.rename(columns={"RAM ": "RAM", "Storage ": "Storage","Battery Capacity (mAh)": "Battery_Capacity"})
 
             label_encoder = LabelEncoder()
             df['Brand'] = label_encoder.fit_transform(df['Brand'])

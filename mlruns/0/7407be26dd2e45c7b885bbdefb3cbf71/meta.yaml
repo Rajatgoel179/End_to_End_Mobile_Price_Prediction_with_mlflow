@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/7407be26dd2e45c7b885bbdefb3cbf71/artifacts
+end_time: 1705079915188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7407be26dd2e45c7b885bbdefb3cbf71
+run_name: hilarious-newt-637
+run_uuid: 7407be26dd2e45c7b885bbdefb3cbf71
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705079904042
+status: 3
+tags: []
+user_id: rajat

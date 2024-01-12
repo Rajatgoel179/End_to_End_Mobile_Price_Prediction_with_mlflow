@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/d7ab5b8aa12f4194a4ab1ec1eadfaa4d/artifacts
+end_time: 1705079841825
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7ab5b8aa12f4194a4ab1ec1eadfaa4d
+run_name: receptive-gnu-488
+run_uuid: d7ab5b8aa12f4194a4ab1ec1eadfaa4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705079827898
+status: 3
+tags: []
+user_id: rajat
