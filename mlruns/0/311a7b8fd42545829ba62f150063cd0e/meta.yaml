@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/311a7b8fd42545829ba62f150063cd0e/artifacts
+end_time: 1705123292674
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 311a7b8fd42545829ba62f150063cd0e
+run_name: mercurial-owl-601
+run_uuid: 311a7b8fd42545829ba62f150063cd0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705123283676
+status: 3
+tags: []
+user_id: rajat

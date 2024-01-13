@@ -111,11 +111,11 @@ class DataTransformation:
             df['res4'].isnull().sum()
             df['res4'] = df['res4'].fillna(0)
             df['res4'] = df['res4'].astype(int)
-            df.rename(columns={"RAM ": "RAM", "Storage ": "Storage","Battery Capacity (mAh)": "Battery_Capacity"})
-
+            df.rename(columns={"RAM ": "RAM", "Storage ": "Storage","Battery Capacity (mAh)": "Battery_Capacity"},inplace=True)
             label_encoder = LabelEncoder()
             df['Brand'] = label_encoder.fit_transform(df['Brand'])
             df = df.drop("Model", axis=1)
+            df = df[['Brand','Storage', 'RAM', 'Battery_Capacity', 'n_cameras','res1', 'res2', 'res3', 'res4', 'screen','Price ($)']]
             return df
     
 

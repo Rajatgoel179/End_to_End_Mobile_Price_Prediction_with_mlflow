@@ -1,0 +1,83 @@
+<html>
+<head>
+
+
+<h1>Car Price Prediction</h1>
+    
+</head>
+<body>
+    <form action="/predict" method="POST">
+<table border="1px">
+
+<tr>
+    <td><h3>Enter the brand of mobile </h3></td>
+    <td><input type="number" name="Brand"></td>
+</tr>
+
+<tr>
+    <td><h3>Enter the Storage:</h3></td>
+    <td><input type="number" name="Storage"></td>
+</tr>
+
+<tr>
+    <td><h3>Enter RAM:</h3></td>
+    <td><input type="number" name="RAM"></td>
+</tr>
+
+<tr>
+    <td><h3>Enter Battery_Capacity</h3></td>
+    <td><input type="number" name="Battery_Capacity"></td>
+</tr>
+
+
+
+<tr>
+    <td><h3>Enter n_cameras</h3></td>
+    <td><input type="number" name="n_cameras"></td>
+</tr>
+
+<tr>
+    <td><h3>Enter res1</h3></td>
+    <td><input type="number" name="res1"></td>
+</tr>
+<tr>
+    <td><h3>Enter res2</h3></td>
+    <td><input type="number" name="res2"></td>
+</tr>
+<tr>
+    <td><h3>Enter res3</h3></td>
+    <td><input type="number" name="res3"></td>
+</tr>
+<tr>
+    <td><h3>Enter res4</h3></td>
+    <td><input type="number" name="res4"></td>
+</tr>
+
+<tr>
+    <td><h3>Enter screen</h3></td>
+    <td><input type="number" name="screen"></td>
+</tr>
+</table>
+<br>
+
+<button type="submit"> Predict Mobile price</button>
+</form>
+
+
+<br>
+<br>
+<br>
+<h1>{{Prediction_text}}</h1>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -3,13 +3,13 @@ COLUMNS:
   Storage: int64
   RAM: int64
   Battery_Capacity: int64
-  Price ($): int64
   n_cameras: int64
   res1: int64
   res2: int64
   res3: int64
   res4: int64
   screen: float64
+  Price ($): int64
 
 TARGET_COLUMN:
   name: Price ($)
