@@ -65,20 +65,20 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/rajatgoel179/Mobile_price_prediction.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/rajatgoel179/End_to_End_Mobile_Price_Prediction_with_mlflow.mlflow \
 MLFLOW_TRACKING_USERNAME=rajatgoel179 \
-MLFLOW_TRACKING_PASSWORD=50fa8d12fb4489657fcceb086005734c34bbcc31 \
+MLFLOW_TRACKING_PASSWORD=afcc0cd2ead5d9b1ab9f24c4e7ef07e3abe30391 \
 python script.py
 
 Run this to set as env variables:
 
 ```bash
 
-set MLFLOW_TRACKING_URI=https://dagshub.com/rajatgoel179/Mobile_price_prediction.mlflow
+set MLFLOW_TRACKING_URI=https://dagshub.com/rajatgoel179/End_to_End_Mobile_Price_Prediction_with_mlflow.mlflow
 
 set MLFLOW_TRACKING_USERNAME=Rajatgoel179 
 
-set MLFLOW_TRACKING_PASSWORD=50fa8d12fb4489657fcceb086005734c34bbcc31
+set MLFLOW_TRACKING_PASSWORD=afcc0cd2ead5d9b1ab9f24c4e7ef07e3abe30391
 
 ```
 
