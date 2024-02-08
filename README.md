@@ -23,7 +23,7 @@
 Clone the repository
 
 ```bash
-https://github.com/Rajatgoel179/Mobile_price_prediction
+https://github.com/Rajatgoel179/End_to_End_Mobile_Price_Prediction_with_mlflow
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
