@@ -83,7 +83,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/rajatgoel179/Mobile_price_prediction.mlflow",
+            mlflow_uri="https://dagshub.com/rajatgoel179/End_to_End_Mobile_Price_Prediction_with_mlflow.mlflow",
            
         )
 
