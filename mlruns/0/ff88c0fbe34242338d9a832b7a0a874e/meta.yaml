@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/ff88c0fbe34242338d9a832b7a0a874e/artifacts
+end_time: 1710147560470
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ff88c0fbe34242338d9a832b7a0a874e
+run_name: adaptable-shark-746
+run_uuid: ff88c0fbe34242338d9a832b7a0a874e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710147558123
+status: 4
+tags: []
+user_id: codespace
