@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/c6ab33e05c7c48b1a77d04e33a3d7120/artifacts
+end_time: 1710146645818
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c6ab33e05c7c48b1a77d04e33a3d7120
+run_name: able-elk-391
+run_uuid: c6ab33e05c7c48b1a77d04e33a3d7120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710146643399
+status: 4
+tags: []
+user_id: codespace
