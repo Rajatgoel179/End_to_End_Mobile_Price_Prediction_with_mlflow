@@ -1,4 +1,5 @@
 from mlProject import logger
+
 from mlProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from mlProject.pipeline.stage_02_data_transformation import DataTransformationTrainingPipeline
 from mlProject.pipeline.satge_03_model_trainer import ModelTrainerTrainingPipeline

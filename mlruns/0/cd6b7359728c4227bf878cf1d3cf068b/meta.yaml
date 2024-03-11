@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/cd6b7359728c4227bf878cf1d3cf068b/artifacts
+end_time: 1710145087914
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cd6b7359728c4227bf878cf1d3cf068b
+run_name: invincible-wasp-717
+run_uuid: cd6b7359728c4227bf878cf1d3cf068b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710145085437
+status: 4
+tags: []
+user_id: codespace
