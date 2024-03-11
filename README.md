@@ -74,11 +74,11 @@ Run this to set as env variables:
 
 ```bash
 
-set MLFLOW_TRACKING_URI=https://dagshub.com/rajatgoel179/End_to_End_Mobile_Price_Prediction_with_mlflow.mlflow
+export  MLFLOW_TRACKING_URI=https://dagshub.com/rajatgoel179/End_to_End_Mobile_Price_Prediction_with_mlflow.mlflow
 
-set MLFLOW_TRACKING_USERNAME=Rajatgoel179 
+export MLFLOW_TRACKING_USERNAME=Rajatgoel179 
 
-set MLFLOW_TRACKING_PASSWORD=afcc0cd2ead5d9b1ab9f24c4e7ef07e3abe30391
+export MLFLOW_TRACKING_PASSWORD=afcc0cd2ead5d9b1ab9f24c4e7ef07e3abe30391
 
 ```
 
