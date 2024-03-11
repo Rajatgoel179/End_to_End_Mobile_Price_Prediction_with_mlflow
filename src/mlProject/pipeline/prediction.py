@@ -7,7 +7,7 @@ from pathlib import Path
 
 class PredictionPipeline:
     def __init__(self):
-        self.model = joblib.load(r"C:\Users\rajat\Desktop\Project\End_to_End_Mobile_Price_Prediction\artifacts\model_trainer\model.joblib")
+        self.model = joblib.load("/workspaces/End_to_End_Mobile_Price_Prediction_with_mlflow/artifacts/model_trainer/model.joblib")
 
     
     def predict(self, data):
