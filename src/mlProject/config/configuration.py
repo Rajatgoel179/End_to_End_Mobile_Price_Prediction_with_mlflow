@@ -49,7 +49,7 @@ class ConfigurationManager:
 
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
-        params = self.params.ElasticNet
+        params = self.params.GradientBoostingRegressor
         schema =  self.schema.TARGET_COLUMN
 
         create_directories([config.root_dir])
@@ -59,8 +59,10 @@ class ConfigurationManager:
             train_data_path = config.train_data_path,
             test_data_path = config.test_data_path,
             model_name = config.model_name,
-            alpha = params.alpha,
-            l1_ratio = params.l1_ratio,
+            learning_rate = params.learning_rate,
+            max_depth = params.max_depth,
+            n_estimators = params.n_estimators,
+            subsample = params.subsample,
             target_column = schema.name
             
         )
@@ -71,7 +73,7 @@ class ConfigurationManager:
     
     def get_model_evaluation_config(self) -> ModelEvaluationConfig:
         config = self.config.model_evaluation
-        params = self.params.ElasticNet
+        params = self.params.GradientBoostingRegressor
         schema =  self.schema.TARGET_COLUMN
 
         create_directories([config.root_dir])

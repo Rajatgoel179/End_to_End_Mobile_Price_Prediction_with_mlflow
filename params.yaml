@@ -1,3 +1,5 @@
-ElasticNet:
-  alpha: 0.9
-  l1_ratio: 0.8
+GradientBoostingRegressor:
+  learning_rate: 0.1
+  max_depth: 3
+  n_estimators: 100
+  subsample: 0.5
