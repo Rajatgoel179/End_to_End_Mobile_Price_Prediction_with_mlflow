@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rajat/Desktop/project2/Mobile_price_prediction/mlruns/0/2574d042fdd2407bbd732dd49ac918c1/artifacts
+end_time: 1714397932877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2574d042fdd2407bbd732dd49ac918c1
+run_name: sneaky-bird-851
+run_uuid: 2574d042fdd2407bbd732dd49ac918c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714397930025
+status: 4
+tags: []
+user_id: codespace

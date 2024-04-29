@@ -42,7 +42,8 @@ def predict_price():
             return render_template("home.html", Prediction_text="You buy {}".format(output))
 
     else:
-        return render_template("home.html", Prediction_text="You can sell your car for {}".format(output))
+        
+        return render_template("home.html", Prediction_text="You can sell your Mobile for {}".format(output))
 if __name__ == "__main__":
     app.run(debug=True)
 
