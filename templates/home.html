@@ -1,9 +1,58 @@
 <html>
 <head>
+    <style>
+        body {
+            background-image: url('./static/assets/img/form-v9.jpg'); /* Replace 'background_image.jpg' with the path to your image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
 
+        form {
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity and color as needed */
+            padding: 20px;
+            border-radius: 10px;
+            margin: 50px auto; /* Center the form horizontally */
+            max-width: 500px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            margin: 0 auto;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-top: 5px;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        h1#Prediction_text {
+            text-align: center;
+        }
+    </style>
 
 <h1>Mobile Price Prediction as per Specification</h1>
-    
 </head>
 <body>
     <form action="/predict" method="POST">
